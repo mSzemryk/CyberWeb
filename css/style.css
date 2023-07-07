@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-section {
+  color: #d8d8d8;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/b5aebdc251425e8aa6997dbc/bggr.jpg");
+  background-position: 50% 50%;
+}
+.welcome-section .section-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.welcome-section h1 {
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+.welcome-section p {
+  margin: 0 20px;
+  font-size: 2rem;
+}
+.welcome-section img {
+  align-self: center;
+  width: 200px;
+  margin-top: 10px;
+}
+.welcome-section .see-more-btn {
+  padding: 20px 30px;
+  margin: 20px 20px;
+  border: none;
+  background-color: #f70647;
+  color: #d8d8d8;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=style.css.map */
