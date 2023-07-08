@@ -122,7 +122,6 @@ html {
 
 .numbers-section {
 	background-color: #fff;
-	height: 300px;
 	h2 {
 		text-transform: uppercase;
 		text-align: center;
@@ -131,26 +130,102 @@ html {
 		color: c.$title-font-color;
 		margin-bottom: 50px;
 	}
-	.numbers-elements{
-		display:flex;
+	.numbers-elements {
+		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
 		text-align: center;
-		.single-element{
-			width:150px;
-			margin:0 5px;
+		margin-bottom:50px;
+		.single-element {
+			width: 150px;
+			margin: 0 5px;
 			padding: 20px 30px;
-			h3{
-				font-size:5rem;
-				color:c.$medium-title;
+			h3 {
+				font-size: 5rem;
+				color: c.$medium-title;
 			}
-		p{
-			font-size:2rem;
-			color: c.$title-font-color;
-			font-weight: bold;
-			text-transform: uppercase;
+			p {
+				font-size: 2rem;
+				color: c.$title-font-color;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
 		}
-		}
+	}
+}
 
+//sekcja kontakt
+
+.contact-hero {
+	position: relative;
+	background-image: url('../img/job-5382501_640.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	z-index: 0;
+	.contact-shadow {
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		top: 0;
+		z-index: -5;
+		left: 0;
+		position: absolute;
+		background-color: rgba(74, 32, 87, 0.836);
+	}
+	h2 {
+		text-transform: uppercase;
+		text-align: center;
+		padding: 60px 10px;
+		padding-bottom: 10px;
+		font-size: 5rem;
+		font-weight: 700;
+		color: c.$medium-title;
+	}
+	p {
+		color: c.$heading-color;
+		font-size: 1.5rem;
+		padding: 10px 50px;
+		line-height: 25px;
+		font-weight: 400;
+	}
+	.contact-form {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+
+		form {
+			display: flex;
+
+			flex-direction: column;
+			padding: 20px 30px;
+			input,
+			textarea {
+				margin-bottom: 5px;
+				background: none;
+				padding: 10px 0;
+				font-weight: bold;
+
+				border: 3px solid c.$btn-color;
+			}
+			input::placeholder,
+			textarea::placeholder,
+			input {
+				color: c.$heading-color;
+			}
+			.input-padding{
+				padding-left: 10px;;
+			}
+			textarea {
+				max-width: 100%;
+			}
+			.submit-btn{
+				width:125px;
+				background-color: c.$btn-color;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+		}
 	}
 }
