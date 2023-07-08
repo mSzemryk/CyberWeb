@@ -10,6 +10,10 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background: linear-gradient(109.6deg, rgb(84, 13, 110) 11.2%, rgb(238, 66, 102) 100.2%);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -119,17 +123,17 @@ html {
 .numbers-section h2 {
   text-transform: uppercase;
   text-align: center;
-  margin-top: 60px;
+  padding-top: 60px;
   font-size: 5rem;
   color: #43005d;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .numbers-section .numbers-elements {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .numbers-section .numbers-elements .single-element {
   width: 150px;
@@ -151,6 +155,7 @@ html {
   position: relative;
   background-image: url("../img/job-5382501_640.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: 0;
 }
@@ -220,11 +225,11 @@ html {
 }
 
 .user-design {
+  text-align: left;
+}
+.user-design .user-design-wrapper {
   display: flex;
   flex-wrap: wrap;
-  text-align: left;
-  background: rgb(63, 94, 251);
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
 }
 .user-design .design-first-title {
   color: #d8d8d8;
@@ -235,21 +240,23 @@ html {
   font-size: 3rem;
   color: #f70647;
 }
-.user-design .user-second-title, .user-design .design-first-title {
+.user-design .user-second-title,
+.user-design .design-first-title {
   padding: 20px 30px;
 }
 .user-design .user-paragraph {
   color: #d8d8d8;
-  padding: 20px 30px;
+  padding: 0 30px;
   font-size: 1.5rem;
+  line-height: 25px;
 }
 .user-design .left-top-image,
 .user-design .right-top-text,
 .user-design .left-bottom-text,
 .user-design .right-bottom-image {
   width: 100%;
-  min-height: 350px;
-  max-height: 450px;
+  min-height: 500px;
+  max-height: 500px;
 }
 .user-design .left-top-image {
   background-image: url("../img/connection.png");
@@ -269,6 +276,8 @@ html {
 }
 .user-design .left-bottom-text img {
   width: 100%;
+  -o-object-position: center top;
+     object-position: center top;
 }
 .user-design .right-bottom-image img {
   -o-object-fit: cover;
@@ -277,4 +286,38 @@ html {
   height: 100%;
   -o-object-position: center top;
      object-position: center top;
+}
+
+.get-app .get-app-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.get-app .get-app-wrapper .get-app-title {
+  color: #f70647;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-top: 50px;
+}
+.get-app .get-app-wrapper p {
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  color: #d8d8d8;
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+.get-app .get-app-wrapper img {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 15px;
+  background-color: #333333;
+}
+footer p {
+  font-size: 1.8rem;
+  color: #d8d8d8;
 }/*# sourceMappingURL=style.css.map */
