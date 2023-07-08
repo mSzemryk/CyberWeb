@@ -9,8 +9,8 @@ html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 }
-body{
-	background: linear-gradient(109.6deg, rgb(84, 13, 110) 11.2%, rgb(238, 66, 102) 100.2%)
+body {
+	background: linear-gradient(109.6deg, rgb(84, 13, 110) 11.2%, rgb(238, 66, 102) 100.2%);
 }
 .container {
 	max-width: 1200px;
@@ -71,6 +71,7 @@ body{
 .technology-section {
 	background-color: c.$techology-color;
 	height: 155vh;
+	position: relative;
 	.techlonogy-section-elements {
 		position: relative;
 		display: flex;
@@ -163,7 +164,6 @@ body{
 	background-image: url('../img/job-5382501_640.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	
 
 	background-attachment: fixed;
 
@@ -237,7 +237,6 @@ body{
 
 .user-design {
 	text-align: left;
-	;
 	.user-design-wrapper {
 		display: flex;
 		flex-wrap: wrap;
@@ -273,6 +272,7 @@ body{
 	.left-top-image {
 		background-image: url('../img/connection.png');
 		background-size: cover;
+		// transform: translateY(1px);
 	}
 	.right-top-text {
 		background-color: c.$techology-color;
@@ -301,11 +301,9 @@ body{
 	}
 }
 
-// get app section
+// get app sekcja
 
 .get-app {
-	
-
 	.get-app-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -325,18 +323,22 @@ body{
 			font-size: 1.5rem;
 			line-height: 25px;
 		}
+		span {
+			color: c.$medium-title;
+			border-bottom: 3px solid;
+			font-size: 6rem;
+		}
 		img {
 			width: 50%;
 		}
 	}
 }
-footer{
+footer {
 	text-align: center;
-	padding:40px 15px;
+	padding: 40px 15px;
 	background-color: c.$footer-bg-color;
-	p{
+	p {
 		font-size: 1.8rem;
-		color:c.$heading-color;
-	
+		color: c.$heading-color;
 	}
 }

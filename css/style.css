@@ -66,6 +66,7 @@ body {
 .technology-section {
   background-color: #43005d;
   height: 155vh;
+  position: relative;
 }
 .technology-section .techlonogy-section-elements {
   position: relative;
@@ -305,6 +306,11 @@ body {
   color: #d8d8d8;
   font-size: 1.5rem;
   line-height: 25px;
+}
+.get-app .get-app-wrapper span {
+  color: #f70647;
+  border-bottom: 3px solid;
+  font-size: 6rem;
 }
 .get-app .get-app-wrapper img {
   width: 50%;
