@@ -14,6 +14,10 @@
   font-size: 2rem;
 }
 
+.elements-wrapper {
+  justify-content: space-around;
+}
+
 .right-bottom-image img {
   width: 50%;
 }/*# sourceMappingURL=large.css.map */
