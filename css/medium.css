@@ -22,8 +22,11 @@
   align-self: flex-end;
 }
 
+.technology-section {
+  height: 70vh;
+}
 .technology-section .techlonogy-section-elements {
-  height: 100vh;
+  height: 70vh;
 }
 .technology-section .techlonogy-section-elements img {
   height: 400px;
