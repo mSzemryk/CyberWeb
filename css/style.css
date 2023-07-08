@@ -23,8 +23,6 @@ body {
   min-height: 100vh;
   color: #d8d8d8;
   z-index: 5;
-  background: rgb(63, 94, 251);
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
 }
 .welcome-section .welcome-section-elements {
   display: flex;
@@ -296,7 +294,7 @@ body {
   align-items: center;
 }
 .get-app .get-app-wrapper .get-app-title {
-  color: #f70647;
+  color: #d8d8d8;
   text-transform: uppercase;
   font-size: 5rem;
   margin-top: 50px;
