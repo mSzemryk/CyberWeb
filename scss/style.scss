@@ -60,7 +60,7 @@ html {
 
 .technology-section {
 	background-color: c.$techology-color;
-	height: 130vh;
+	height: 155vh;
 	.techlonogy-section-elements {
 		position: relative;
 		display: flex;
@@ -91,10 +91,11 @@ html {
 			padding-right: 20px;
 			font-size: 1.6rem;
 		}
-		.technology-first-lower-title, .technology-second-lower-title {
+		.technology-first-lower-title,
+		.technology-second-lower-title {
 			margin-left: 20px;
 		}
-		.technology-first-paragpaph {
+		.technology-first-paragraph {
 			text-align: right;
 		}
 		.technology-second-title {
@@ -103,6 +104,8 @@ html {
 			margin-top: 20px;
 			margin-right: 20px;
 		}
-		
+		.technology-second-paragraph {
+			padding-left: 20px;
+		}
 	}
 }

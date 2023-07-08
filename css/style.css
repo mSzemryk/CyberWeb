@@ -55,7 +55,7 @@ html {
 
 .technology-section {
   background-color: #43005d;
-  height: 130vh;
+  height: 155vh;
 }
 .technology-section .techlonogy-section-elements {
   position: relative;
@@ -88,10 +88,11 @@ html {
   padding-right: 20px;
   font-size: 1.6rem;
 }
-.technology-section .techlonogy-section-elements .technology-first-lower-title, .technology-section .techlonogy-section-elements .technology-second-lower-title {
+.technology-section .techlonogy-section-elements .technology-first-lower-title,
+.technology-section .techlonogy-section-elements .technology-second-lower-title {
   margin-left: 20px;
 }
-.technology-section .techlonogy-section-elements .technology-first-paragpaph {
+.technology-section .techlonogy-section-elements .technology-first-paragraph {
   text-align: right;
 }
 .technology-section .techlonogy-section-elements .technology-second-title {
@@ -99,4 +100,7 @@ html {
   align-self: flex-end;
   margin-top: 20px;
   margin-right: 20px;
+}
+.technology-section .techlonogy-section-elements .technology-second-paragraph {
+  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */
