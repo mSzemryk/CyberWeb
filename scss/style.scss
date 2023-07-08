@@ -8,11 +8,9 @@ html {
 	scroll-behavior: smooth;
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
-	
 }
 body {
 	background: linear-gradient(109.6deg, rgb(84, 13, 110) 11.2%, rgb(238, 66, 102) 100.2%);
-	
 }
 
 .container {
@@ -127,7 +125,7 @@ body {
 // sekcja trzecia
 
 .numbers-section {
-		background-color: #fff;
+	background-color: #fff;
 	h2 {
 		text-transform: uppercase;
 		text-align: center;
@@ -248,7 +246,6 @@ body {
 		overflow-x: hidden;
 		display: flex;
 		flex-wrap: wrap;
-	
 	}
 	.design-first-title {
 		color: c.$heading-color;
