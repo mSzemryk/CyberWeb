@@ -1,1 +1,16 @@
-/*# sourceMappingURL=large.css.map */
+.welcome-section {
+  min-height: 70vh;
+}
+.welcome-section .welcome-section-elements h1 {
+  margin-left: 300px;
+  font-size: 5rem;
+}
+.welcome-section .welcome-section-elements p,
+.welcome-section .welcome-section-elements .see-more-btn {
+  margin-left: 300px;
+}
+.welcome-section .welcome-section-elements img {
+  left: 50%;
+  width: 350px;
+  top: 90%;
+}/*# sourceMappingURL=large.css.map */

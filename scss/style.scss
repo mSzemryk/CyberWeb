@@ -13,21 +13,19 @@ html {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.welcome-section {
-	color: c.$heading-color;
 
-	background-image: linear-gradient(
-			0deg,
-			rgba(0, 0, 0, 0.25),
-			rgba(0, 0, 0, 0.25)
-		),
-		url('//images01.nicepage.com/c461c07a441a5d220e8feb1a/b5aebdc251425e8aa6997dbc/bggr.jpg');
-	background-position: 50% 50%;
-	.section-elements {
+// sekcja pierwsza
+
+.welcome-section {
+	min-height: 100vh;
+	color: c.$heading-color;
+	z-index: 5;
+	background: rgb(63, 94, 251);
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	.welcome-section-elements {
 		display: flex;
 		flex-direction: column;
-		// text-align: left;
-		// justify-content: flex-start;
+
 		align-items: flex-start;
 	}
 	h1 {
@@ -44,7 +42,7 @@ html {
 	img {
 		align-self: center;
 		width: 200px;
-        margin-top: 10px;
+		margin-top: 10px;
 	}
 	.see-more-btn {
 		padding: 20px 30px;
@@ -55,5 +53,56 @@ html {
 		text-transform: uppercase;
 		font-weight: bold;
 		letter-spacing: 1px;
+	}
+}
+
+// sekcja druga
+
+.technology-section {
+	background-color: c.$techology-color;
+	height: 100vh;
+	.techlonogy-section-elements {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		img {
+			width: 280px;
+		}
+		h2 {
+			font-size: 8rem;
+			font-weight: lighter;
+			color: c.$heading-color;
+			letter-spacing: 3px;
+		}
+		.technology-first-title {
+			margin-top: 20px;
+			align-self: flex-start;
+		}
+		h3 {
+			color: c.$medium-title;
+			font-size: 3rem;
+			text-transform: uppercase;
+		}
+		p {
+			color: c.$heading-color;
+			margin-top: 10px;
+			padding-right: 20px;
+			font-size: 1.6rem;
+		}
+		.technology-first-lower-title, .technology-second-lower-title {
+			margin-left: 20px;
+		}
+		.technology-first-paragpaph {
+			text-align: right;
+		}
+		.technology-second-title {
+			text-align: left;
+			align-self: flex-end;
+			margin-top: 20px;
+			margin-right: 20px;
+		}
+		
 	}
 }
