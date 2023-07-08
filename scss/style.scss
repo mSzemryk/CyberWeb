@@ -135,7 +135,7 @@ html {
 		justify-content: space-around;
 		flex-wrap: wrap;
 		text-align: center;
-		margin-bottom:50px;
+		margin-bottom: 50px;
 		.single-element {
 			width: 150px;
 			margin: 0 5px;
@@ -160,7 +160,7 @@ html {
 	position: relative;
 	background-image: url('../img/job-5382501_640.jpg');
 	background-size: cover;
-	background-position: center;
+
 	background-attachment: fixed;
 
 	z-index: 0;
@@ -214,14 +214,14 @@ html {
 			input {
 				color: c.$heading-color;
 			}
-			.input-padding{
-				padding-left: 10px;;
+			.input-padding {
+				padding-left: 10px;
 			}
 			textarea {
 				max-width: 100%;
 			}
-			.submit-btn{
-				width:125px;
+			.submit-btn {
+				width: 125px;
 				background-color: c.$btn-color;
 				text-transform: uppercase;
 				letter-spacing: 2px;

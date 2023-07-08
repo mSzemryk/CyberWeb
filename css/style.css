@@ -151,7 +151,6 @@ html {
   position: relative;
   background-image: url("../img/job-5382501_640.jpg");
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
   z-index: 0;
 }
