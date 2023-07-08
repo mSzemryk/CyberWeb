@@ -44,6 +44,9 @@ html {
 		width: 200px;
 		margin-top: 10px;
 	}
+	a {
+		text-decoration: none;
+	}
 	.see-more-btn {
 		padding: 20px 30px;
 		margin: 20px 20px;
@@ -52,7 +55,12 @@ html {
 		color: c.$heading-color;
 		text-transform: uppercase;
 		font-weight: bold;
+		font-size: 1.2rem;
 		letter-spacing: 1px;
+		transition: background-color, 0.3s;
+	}
+	.see-more-btn:hover {
+		background-color: c.$btn-color-hover;
 	}
 }
 
@@ -107,5 +115,42 @@ html {
 		.technology-second-paragraph {
 			padding-left: 20px;
 		}
+	}
+}
+
+// sekcja trzecia
+
+.numbers-section {
+	background-color: #fff;
+	height: 300px;
+	h2 {
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 60px;
+		font-size: 5rem;
+		color: c.$title-font-color;
+		margin-bottom: 50px;
+	}
+	.numbers-elements{
+		display:flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		text-align: center;
+		.single-element{
+			width:150px;
+			margin:0 5px;
+			padding: 20px 30px;
+			h3{
+				font-size:5rem;
+				color:c.$medium-title;
+			}
+		p{
+			font-size:2rem;
+			color: c.$title-font-color;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		}
+
 	}
 }

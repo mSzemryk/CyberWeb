@@ -42,6 +42,9 @@ html {
   width: 200px;
   margin-top: 10px;
 }
+.welcome-section a {
+  text-decoration: none;
+}
 .welcome-section .see-more-btn {
   padding: 20px 30px;
   margin: 20px 20px;
@@ -50,7 +53,12 @@ html {
   color: #d8d8d8;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.2rem;
   letter-spacing: 1px;
+  transition: background-color, 0.3s;
+}
+.welcome-section .see-more-btn:hover {
+  background-color: #b6123e;
 }
 
 .technology-section {
@@ -103,4 +111,38 @@ html {
 }
 .technology-section .techlonogy-section-elements .technology-second-paragraph {
   padding-left: 20px;
+}
+
+.numbers-section {
+  background-color: #fff;
+  height: 300px;
+}
+.numbers-section h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 5rem;
+  color: #43005d;
+  margin-bottom: 50px;
+}
+.numbers-section .numbers-elements {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.numbers-section .numbers-elements .single-element {
+  width: 150px;
+  margin: 0 5px;
+  padding: 20px 30px;
+}
+.numbers-section .numbers-elements .single-element h3 {
+  font-size: 5rem;
+  color: #f70647;
+}
+.numbers-section .numbers-elements .single-element p {
+  font-size: 2rem;
+  color: #43005d;
+  font-weight: bold;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
