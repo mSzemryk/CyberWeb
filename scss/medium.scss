@@ -1,24 +1,22 @@
-.welcome-section {
-	min-height: 50vh;
-	.welcome-section-elements {
-		position: relative;
-		// flex-direction: row;
-		h1 {
-			margin-top: 100px;
-			margin-left: 50px;
-			font-size: 5rem;
+.welcome-section{
+	.welcome-section-elements{
+		flex-direction: row;
+		flex-wrap: nowrap;
+
+		.txt-elements{
+			display: flex;
+			flex-wrap: nowrap;
+			h1{
+				font-size: 5rem;
+
+			}
+			
 		}
-		p,
-		.see-more-btn {
-			margin-left: 50px;
-		}
-		img {
-			position: absolute;
-			top: 60%;
-			right: 15%;
-			transform: translateY(-50%);
-			width: 250px;
-			align-self: flex-end;
+		.img-element{
+
+			img{
+				width:400px;
+			}
 		}
 	}
 }
@@ -65,7 +63,6 @@
 
 .contact-hero {
 	background-image: url('../img/job-5382501_1280.jpg');
-	// background-position-y: 400px;
 	min-height: 30vh;
 }
 .elements-wrapper {

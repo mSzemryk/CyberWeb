@@ -14,45 +14,53 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
 // sekcja pierwsza
 
 .welcome-section {
-	min-height: 100vh;
 	color: c.$heading-color;
 	z-index: 5;
 
 	.welcome-section-elements {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.img-element{
+		
+		img {
+		padding: 20px 30px;
+		width: 230px;
+	}
+	}
+	.txt-elements {
+		order:1;
+		display: flex;
+		flex-direction: column;
+		
+		h1 {
+			padding: 30px 30px 0 30px;
+			text-transform: uppercase;
+			font-size: 3.5rem;
+		}
 
-		align-items: flex-start;
-	}
-	h1 {
-		margin-top: 30px;
-		margin-left: 20px;
-		text-transform: uppercase;
-		font-size: 3.5rem;
-	}
-
-	p {
-		margin: 0 20px;
-		font-size: 2rem;
-	}
-	img {
-		align-self: center;
-		width: 200px;
-		margin-top: 10px;
-	}
-	a {
-		text-decoration: none;
+		span {
+			padding: 30px;
+			font-size: 2rem;
+		}
+		
+		
 	}
 	.see-more-btn {
-		padding: 20px 30px;
-		margin: 20px 20px;
+		text-decoration: none;
+		padding: 20px ;
+		margin-bottom: 30px;
+	
+		text-align: center;
 		border: none;
 		background-color: c.$btn-color;
 		color: c.$heading-color;
@@ -61,6 +69,7 @@ body {
 		font-size: 1.2rem;
 		letter-spacing: 1px;
 		transition: background-color, 0.3s;
+
 	}
 	.see-more-btn:hover {
 		background-color: c.$btn-color-hover;
@@ -255,6 +264,7 @@ body {
 		text-transform: uppercase;
 		font-size: 3rem;
 		color: c.$medium-title;
+		letter-spacing: 4px;
 	}
 	.user-second-title,
 	.design-first-title {
@@ -278,8 +288,8 @@ body {
 	.left-top-image {
 		background-image: url('../img/connection.png');
 		background-size: cover;
-		// transform: translateY(1px);
 	}
+
 	.right-top-text {
 		background-color: c.$techology-color;
 	}
