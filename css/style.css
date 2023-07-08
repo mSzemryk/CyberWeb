@@ -217,4 +217,64 @@ html {
   background-color: #f70647;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.user-design {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+.user-design .design-first-title {
+  color: #d8d8d8;
+  font-size: 5rem;
+}
+.user-design .user-second-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #f70647;
+}
+.user-design .user-second-title, .user-design .design-first-title {
+  padding: 20px 30px;
+}
+.user-design .user-paragraph {
+  color: #d8d8d8;
+  padding: 20px 30px;
+  font-size: 1.5rem;
+}
+.user-design .left-top-image,
+.user-design .right-top-text,
+.user-design .left-bottom-text,
+.user-design .right-bottom-image {
+  width: 100%;
+  min-height: 350px;
+  max-height: 450px;
+}
+.user-design .left-top-image {
+  background-image: url("../img/connection.png");
+  background-size: cover;
+}
+.user-design .right-top-text {
+  background-color: #43005d;
+}
+.user-design .left-bottom-text {
+  background-color: #f8f5f5;
+}
+.user-design .left-bottom-text h3 {
+  padding-top: 50px;
+}
+.user-design .left-bottom-text p {
+  color: #000;
+}
+.user-design .left-bottom-text img {
+  width: 100%;
+}
+.user-design .right-bottom-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -o-object-position: center top;
+     object-position: center top;
 }/*# sourceMappingURL=style.css.map */

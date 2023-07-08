@@ -71,4 +71,11 @@
 .elements-wrapper {
   display: flex;
   padding-top: 50px;
+}
+
+.user-design .left-top-image,
+.user-design .right-top-text,
+.user-design .left-bottom-text,
+.user-design .right-bottom-image {
+  width: 50%;
 }/*# sourceMappingURL=medium.css.map */
