@@ -1,14 +1,25 @@
-
 .technology-section {
 	.techlonogy-section-elements {
 		img {
-			height: 500px;
+			width: 350px;
+		}
+		.single-element{
+			padding:50px;
+		}
+		h2{
+			font-size: 5rem;
+		}
+		h3{
+			font-size: 4rem;
+		}
+		p{
+			font-size: 2rem;
 		}
 	}
 }
-.right-bottom-image{
-	img{
-		width:50%;
+
+.right-bottom-image {
+	img {
+		width: 50%;
 	}
 }
-

@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -67,28 +67,28 @@ body {
 
 .technology-section {
   background-color: #43005d;
-  height: 155vh;
-  position: relative;
 }
 .technology-section .techlonogy-section-elements {
-  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .technology-section .techlonogy-section-elements img {
-  width: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+.technology-section .techlonogy-section-elements h3, .technology-section .techlonogy-section-elements p {
+  padding: 15px 30px;
 }
 .technology-section .techlonogy-section-elements h2 {
-  font-size: 8rem;
-  font-weight: lighter;
   color: #d8d8d8;
-  letter-spacing: 3px;
-}
-.technology-section .techlonogy-section-elements .technology-first-title {
-  margin-top: 20px;
-  align-self: flex-start;
+  font-size: 4rem;
+  line-break: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .technology-section .techlonogy-section-elements h3 {
   color: #f70647;
@@ -96,26 +96,14 @@ body {
   text-transform: uppercase;
 }
 .technology-section .techlonogy-section-elements p {
+  font-size: 1.5rem;
   color: #d8d8d8;
-  margin-top: 10px;
-  padding-right: 20px;
-  font-size: 1.6rem;
 }
-.technology-section .techlonogy-section-elements .technology-first-lower-title,
-.technology-section .techlonogy-section-elements .technology-second-lower-title {
-  margin-left: 20px;
-}
-.technology-section .techlonogy-section-elements .technology-first-paragraph {
+.technology-section .techlonogy-section-elements .technology-second-lower-title, .technology-section .techlonogy-section-elements .technology-second-title, .technology-section .techlonogy-section-elements .technology-second-paragraph {
   text-align: right;
 }
-.technology-section .techlonogy-section-elements .technology-second-title {
-  text-align: left;
+.technology-section .techlonogy-section-elements .img-wrapper {
   align-self: flex-end;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-.technology-section .techlonogy-section-elements .technology-second-paragraph {
-  padding-left: 20px;
 }
 
 .numbers-section {

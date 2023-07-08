@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	max-width: 1400px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
 
@@ -30,18 +30,17 @@ body {
 		justify-content: space-around;
 		align-items: center;
 	}
-	.img-element{
-		
+	.img-element {
 		img {
-		padding: 20px 30px;
-		width: 230px;
-	}
+			padding: 20px 30px;
+			width: 230px;
+		}
 	}
 	.txt-elements {
-		order:1;
+		order: 1;
 		display: flex;
 		flex-direction: column;
-		
+
 		h1 {
 			padding: 30px 30px 0 30px;
 			text-transform: uppercase;
@@ -52,14 +51,12 @@ body {
 			padding: 30px;
 			font-size: 2rem;
 		}
-		
-		
 	}
 	.see-more-btn {
 		text-decoration: none;
-		padding: 20px ;
+		padding: 20px;
 		margin-bottom: 30px;
-	
+
 		text-align: center;
 		border: none;
 		background-color: c.$btn-color;
@@ -69,7 +66,6 @@ body {
 		font-size: 1.2rem;
 		letter-spacing: 1px;
 		transition: background-color, 0.3s;
-
 	}
 	.see-more-btn:hover {
 		background-color: c.$btn-color-hover;
@@ -79,54 +75,45 @@ body {
 // sekcja druga
 
 .technology-section {
-	background-color: c.$techology-color;
-	height: 155vh;
-	position: relative;
+	background-color:c.$techology-color ;
 	.techlonogy-section-elements {
-		position: relative;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
+		justify-content: center;
+
 		img {
-			width: 280px;
+			object-fit: cover;
+			width: 250px;
 		}
-		h2 {
-			font-size: 8rem;
-			font-weight: lighter;
+
+		h3, p{
+			padding:15px 30px;
+		}
+		h2{
 			color: c.$heading-color;
-			letter-spacing: 3px;
+			font-size: 4rem;
+			line-break: auto;
+			padding-top:20px;
+			padding-right: 20px;
+			padding-left:20px;
+			
 		}
-		.technology-first-title {
-			margin-top: 20px;
-			align-self: flex-start;
-		}
-		h3 {
-			color: c.$medium-title;
+		h3{
+			color:c.$medium-title;
 			font-size: 3rem;
 			text-transform: uppercase;
 		}
-		p {
+		p{
+			font-size: 1.5rem;
 			color: c.$heading-color;
-			margin-top: 10px;
-			padding-right: 20px;
-			font-size: 1.6rem;
 		}
-		.technology-first-lower-title,
-		.technology-second-lower-title {
-			margin-left: 20px;
-		}
-		.technology-first-paragraph {
+		.technology-second-lower-title, .technology-second-title, .technology-second-paragraph{
 			text-align: right;
 		}
-		.technology-second-title {
-			text-align: left;
+		.img-wrapper{
 			align-self: flex-end;
-			margin-top: 20px;
-			margin-right: 20px;
-		}
-		.technology-second-paragraph {
-			padding-left: 20px;
+			
 		}
 	}
 }

@@ -1,62 +1,57 @@
-.welcome-section{
-	.welcome-section-elements{
+.welcome-section {
+	.welcome-section-elements {
 		flex-direction: row;
 		flex-wrap: nowrap;
 
-		.txt-elements{
+		.txt-elements {
 			display: flex;
 			flex-wrap: nowrap;
-			h1{
+			h1 {
 				font-size: 5rem;
-
 			}
-			
 		}
-		.img-element{
-
-			img{
-				width:400px;
+		.img-element {
+			img {
+				width: 400px;
 			}
 		}
 	}
 }
-
-.technology-section {
-	height: 70vh;
-	.techlonogy-section-elements {
-		height: 70vh;
-		img {
-			height: 400px;
+.technology-section{
+	.techlonogy-section-elements{
+		position: relative;
+		
+		
+		.img-element {
 			position: absolute;
-			object-fit: cover;
-			top: -70px;
-			left: 40px;
+			left: 62%;
+			top: -10%;
+			img {
+				height: 300px;
+			}
 		}
-		.technology-first-title {
-			// position:absolute;
+		.single-element {
+			width: 60%;
+			h2{
+				padding:20px 60px;
+			}
+			h3, p{
+				padding:20px 60px;
+			}
+		}
+		.flex-end-wrapper-one{
+			align-self: flex-start;
+		}
+		.flex-end-wrapper-two{
+			align-self: flex-end;
+		}
+		.img-wrapper{
 			align-self: center;
-		}
-		.technology-first-lower-title {
-			align-self: flex-end;
-			margin-left: 20px;
-			padding: 15px;
-		}
-		.technology-first-paragraph {
-			max-width: 500px;
-			align-self: flex-end;
-		}
-		.technology-second-title,
-		.technology-second-lower-title {
-			align-self: flex-start;
-			margin-left: 30px;
-		}
-		.technology-second-title {
-			margin-top: 50px;
-		}
-		.technology-second-paragraph {
-			max-width: 700px;
-			align-self: flex-start;
-			margin-left: 30px;
+			position: absolute;
+			bottom: 0;
+			left: 10%;
+				width: 300px;
+			
 		}
 	}
 }
