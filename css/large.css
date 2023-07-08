@@ -13,6 +13,9 @@
 .technology-section .techlonogy-section-elements p {
   font-size: 2rem;
 }
+.technology-section .techlonogy-section-elements .img-wrapper {
+  width: 400px;
+}
 
 .elements-wrapper {
   justify-content: space-around;
