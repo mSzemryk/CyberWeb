@@ -10,6 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
 	<script src="https://kit.fontawesome.com/63d64969b8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="./css/style.css" />
 	<link rel="stylesheet" media="screen and (min-width:768px)" href="./css/medium.css" />
 	<link rel="stylesheet" media="screen and (min-width:992px)" href="./css/large.css" />
@@ -56,25 +57,25 @@
 			<div class="container">
 				<h2>doing the right things</h2>
 				<div class="numbers-elements">
-					<div class="single-element">
+					<div class="single-element" data-aos="fade-up" data-aos-delay="200">
 						<h3>
 							7
 						</h3>
 						<p>offices</p>
 					</div>
-					<div class="single-element">
+					<div class="single-element" data-aos="fade-up" data-aos-delay="400">
 						<h3>
 							43
 						</h3>
 						<p>awards winning</p>
 					</div>
-					<div class="single-element">
+					<div class=" single-element" data-aos="fade-up" data-aos-delay="600">
 						<h3>
 							100%
 						</h3>
 						<p>happy clients</p>
 					</div>
-					<div class="single-element">
+					<div class="single-element"data-aos="fade-up" data-aos-delay="800">
 						<h3>
 							12
 						</h3>
@@ -97,12 +98,12 @@
 			<div class="contact-shadow"></div>
 			<div class="container">
 				<div class="elements-wrapper">
-					<div class="text-wrapper">
-						<h2 class="contact-title">dream, train and activate</h2>
+					<div class="text-wrapper"data-aos="fade-right" data-aos-delay="400">
+						<h2 class="contact-title" >dream, train and activate</h2>
 						<p class="contact-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
 							impedit, ad illum porro earum eveniet.</p>
 					</div>
-					<div class="contact-form">
+					<div class="contact-form" data-aos="fade-left" data-aos-delay="600">
 						<form action="">
 							<input class='input-padding' type="text" placeholder="Name">
 							<input class='input-padding' type="email" placeholder="Email">
@@ -120,8 +121,8 @@
 		<section class="user-design">
 			<div class="container">
 				<div class="user-design-wrapper">
-					<div class="left-top-image "></div>
-					<div class="right-top-text ">
+					<div class="left-top-image "data-aos="fade-down-right" data-aos-delay="200"></div>
+					<div class="right-top-text "data-aos="fade-down-left" data-aos-delay="400">
 						<h2 class="design-first-title">03</h2>
 						<h3 class="user-second-title">userfriendly design</h3>
 						<p class="user-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
@@ -130,13 +131,13 @@
 							unde
 							minus quidem quis. Sequi, laudantium. Corrupti?</p>
 					</div>
-					<div class="left-bottom-text ">
+					<div class="left-bottom-text "data-aos="fade-up-right" data-aos-delay="600">
 						<h3 class="user-second-title">what we do</h3>
 						<p class="user-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
 							dolor sit amet. </p>
 						<img src="./img/iphone-x-pictures-45238.png" alt="">
 					</div>
-					<div class="right-bottom-image">
+					<div class="right-bottom-image"data-aos="fade-up-left" data-aos-delay="800">
 						<img src="./img/pngfind.com-office-people-png-6240104.png" alt="">
 					</div>
 				</div>
@@ -163,6 +164,15 @@
 	<footer>
 		<p>Created by Michał Szemryk &copy; 2023</p>
 	</footer>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			startEvent: 'DOMContentLoaded',
+			offset: 200,
+			once: true,
+		});
+	</script>
 </body>
 
 </html>
