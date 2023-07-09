@@ -9,6 +9,7 @@ document.addEventListener(
 			getAppSection.classList.remove('d-none')
 		}
 	})
+    
 )
+window.addEventListener('scroll',getApp)
 
-getApp
