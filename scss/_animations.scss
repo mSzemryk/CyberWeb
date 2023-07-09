@@ -1,0 +1,25 @@
+@keyframes imgElement {
+    0%{
+        filter: blur(8px);
+  -webkit-filter: blur(8px);
+    }
+    100%{
+        filter: blur(0px);
+  -webkit-filter: blur(0px);
+    }
+}
+@keyframes seeMoreBtn{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-100px);
+    }
+
+    66%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
